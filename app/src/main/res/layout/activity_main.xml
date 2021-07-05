@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/purple_200"
+        android:textSize="40sp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Warranty App" />
+
+    <TextView
+        android:id="@+id/textViewDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="33sp"
+        android:gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:text="This app is designed to help Users to maintain a list of products and their warranty expiry date" />
+
+    <Button
+        android:id="@+id/buttonAccess"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="40sp"
+        android:text="Lists" />
+
+    <Button
+        android:id="@+id/buttonWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:textSize="30sp"
+        android:text="Creator Website" />
+
+    <TextView
+        android:id="@+id/textViewCredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="23sp"
+        android:gravity="center_horizontal"
+        android:layout_gravity="bottom"
+        android:layout_margin="10dp"
+        android:text="App designed by Creator" />
+
+
+</LinearLayout>
